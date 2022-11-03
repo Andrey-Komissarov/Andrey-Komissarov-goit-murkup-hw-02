@@ -205,5 +205,6 @@ color: var(--address-color);
     
  .link.contact {
 color: var(--address-secondary-color);
+font-style: normal;
 }
         
