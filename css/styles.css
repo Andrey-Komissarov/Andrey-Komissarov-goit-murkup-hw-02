@@ -203,7 +203,7 @@ font-style: normal;
 color: var(--address-color);
  }
     
- .list .link {
+ .link.contact {
 color: var(--address-secondary-color);
 }
         
