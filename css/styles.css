@@ -32,7 +32,6 @@ text-decoration: none;
 
 .title {
 color: var(--titel-link-color);
-font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
@@ -44,13 +43,14 @@ display: none;
 
 /*webstudio*/
 .logo {
+color: var(--logo-up-color);
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 width: 145px;
 height: 31px;
-color: var(--logo-up-color);
+
 }
 
 .logo-web {
@@ -60,6 +60,7 @@ color: var(--logo-up-color);
 .footer > .logo {
     color: var(--logo-down-color);
 }
+
 
 /*Navigathion*/
 
@@ -102,7 +103,7 @@ background-color: var(--footer-hero-bg-color);
 }
 
 .hero-title {
-color: var(--primery-bg-color);
+color: var(--address-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -126,8 +127,7 @@ cursor: pointer;
 }
 
 /*Наші переваги*/
-.advantage .title{
-font-weight: 700;
+.advantage .title {
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
@@ -171,8 +171,9 @@ text-align: center;
 
 .button-galerry:hover,
 .button-galerry:focus {
-    color: var(--primery-bg-color);
-    background-color:var(--accent-color);
+    color: var(--logo-down-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 /*Галерея*/
@@ -197,11 +198,12 @@ text-align: start;
 background-color: var(--footer-hero-bg-color);
 }
 
-.address> .link .maps {
+.list .link.maps {
 font-style: normal;
 color: var(--address-color);
-}
-
-.address .link {
+ }
+    
+ .list .link {
 color: var(--address-secondary-color);
 }
+        
